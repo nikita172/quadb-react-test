@@ -1,0 +1,15 @@
+:root{
+  --purpleTheme:#B200ED;
+  --lightGray:#f1eeee;
+  --lightGray2: #f7f7f7;
+  --darkTheme:#1e1e1e;
+  --darkTheme2:#282828;
+}
+body{
+  font-family: "Roboto";
+}
+*{
+  padding: 0;
+  margin: 0;
+
+}

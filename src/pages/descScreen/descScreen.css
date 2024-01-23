@@ -1,0 +1,86 @@
+.descContainer{
+  padding-top: 70px;
+}
+.descWrapper{
+  margin: 100px auto;
+  width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--lightGray);
+  padding: 30px;
+  border-radius: 20px;
+
+}
+.descLeft{
+  display: flex;
+  flex: 1;
+}
+.descRight{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.descRight button{
+  background-color: var(--purpleTheme);
+  color: white;
+  padding: 6px 10px;
+  border: none;
+}
+
+.formContainer{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formWrapper{
+  background-color: rgb(221, 221, 221);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formHeader{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 20px;
+}
+.closeFormBtn{
+  padding: 5px 8px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  font-size: 15px;
+  cursor: pointer;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 20px;
+  gap: 20px;
+}
+.form input{
+  padding: 5px 10px;
+  outline: none;
+  border: 1px solid var(--lightGray);
+  border-radius: 10px;
+}
+.submitBtn{
+  background-color: var(--purpleTheme);
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
