@@ -7,9 +7,9 @@
   background-color: var(--lightGray);
 }
 .mainContainerWrapper{
-  width: 1224px;
-  margin: 0px auto;
+  margin: 20px;
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 .cards{

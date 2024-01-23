@@ -2,18 +2,38 @@
   padding-top: 70px;
 }
 .descWrapper{
-  margin: 100px auto;
-  width: 1024px;
+  margin: 100px;
   display: flex;
   justify-content: space-between;
   background-color: var(--lightGray);
   padding: 30px;
   border-radius: 20px;
-
+  flex-wrap: wrap;
 }
 .descLeft{
   display: flex;
   flex: 1;
+}
+.descLeft img{
+  width: 300px;
+  height: 350px;
+}
+@media screen and (max-width:880px) {
+  .descWrapper{
+  margin: 10px;
+  display: flex;
+  flex: wrap;
+  /* height: 400px; */
+}
+.descLeft{
+  display: flex;
+}
+.descLeft img{
+  width: 220px;
+  height: 250px;
+}
+
+  
 }
 .descRight{
   display: flex;
